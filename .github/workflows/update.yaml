@@ -1,9 +1,15 @@
+name: Generate Readme
 on:
   push:
     branches:
       - master
     schedule:
       - cron: '0 8 * * *'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: Generate
     steps:
       - name: 📥 Checkout
         uses: actions/checkout@master
