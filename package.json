@@ -1,0 +1,15 @@
+{
+  "name": "jamesridgway",
+  "version": "1.0.0",
+  "description": "README generator for github.com/jamesridgway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Ridgway",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "rss-parser": "^3.9.0"
+  }
+}
