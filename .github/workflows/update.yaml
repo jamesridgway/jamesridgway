@@ -14,7 +14,7 @@ jobs:
       - name: 📥 Checkout
         uses: actions/checkout@master
         with:
-        fetch-depth: 1
+          fetch-depth: 1
       - name: ⚙️ Generate README
         run: |
           npm i
